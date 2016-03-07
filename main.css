@@ -1,0 +1,70 @@
+*{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+header,nav,body,article,aside,section,footer{
+	display:block;
+}
+header h1{
+	color:#ff9966;
+	float:left;
+	padding:0px 30px
+}
+
+.image_top{
+	width:1280px;
+	height: 400px;
+}
+.top_nav ul li{
+	float: left;
+	padding:10px 20px;
+	padding-left:10px;
+}
+
+footer{
+	clear:both;
+	background-color:#ccddee;
+}
+.container{
+	margin:0px auto;
+	background-color:#a0a0a0;
+	width:1280px;
+	background-image:url("Design-Thinking.jpg");
+	background-repeat:no-repeat;
+}
+a:hover{
+	color:#ddeecc;
+}
+a:visited{
+	color:#ccddee;
+}
+a:active{
+	color:#eeccdd;
+}
+body{
+	background-position:center;
+	background-color:brown;
+}
+.left_side{
+	float:left;
+	padding-top:10px;
+	width:800px;
+}
+.right_side{
+	float:left;
+	padding-top:10px;
+	width:480px;
+	}
+.left_side article{
+	padding:10px 30px;
+	font-weight:bold;
+	color:#ff9966;
+	font-family: Calibri;
+	font-size:20;
+}
+.right_side article{
+	padding:10px 0px 10px 100px;
+	color:#ff9966;
+	font-family: Calibri;
+	}
