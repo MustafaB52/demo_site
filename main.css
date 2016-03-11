@@ -9,15 +9,26 @@ header,nav,body,article,aside,section,footer{
 header h1{
 	color:#802b00;
 	float:left;
-	padding:0px 30px;
+	padding:1px 40px;
 	background-color:#ff9966;
 	border-radius: 30px;
 	margin-left:10px;
+	margin-top: 40px;
+}
+
+.my_pic{
+	margin-left:5px;
+	width:100px;
+	height: 90px;
+	margin-top: 10px;
+	float:left;
+	border:5px;
 }
 
 .image_top{
 	width:1280px;
 	height: 500px;
+	margin-top: 10px;
 }
 .top_nav ul li{
 	float: left;
@@ -25,10 +36,12 @@ header h1{
 	background-color:#ff9966;
 	border-radius: 30px;
 	margin-left:30px;
+	margin-top: 40px;
 }
 
 footer{
 	clear:both;
+	margin-top: 10px;
 	background-color:#ccddee;
 }
 .container{
@@ -57,12 +70,15 @@ body{
 	width:800px;
 	margin-right: 20px;
 	margin-left:10px;
+	margin-bottom: 10px;
+	clear:both;
 }
 .right_side{
 	float:right;
 	padding-top:10px;
 	width:300px;
 	margin-right:10px;
+	margin-bottom: 10px;
 	}
 .left_side article{
 	padding:10px 30px;
